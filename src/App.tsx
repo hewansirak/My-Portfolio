@@ -1,8 +1,11 @@
-import React from 'react';
+import React from "react";
+import Navigation from "./components/Navigation";
 
 function App() {
   return (
-    <div className="bg-red-500 text-white p-4">Tailwind Works!</div>
+    <div className="min-h-screen bg-linear-to-r from-rose-500 via-pink-500 to-red-500">
+      <Navigation />
+    </div>
   );
 }
 
