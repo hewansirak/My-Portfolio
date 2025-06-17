@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
             <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-r from-purple-500 to-orange-200 p-1 overflow-hidden">
               <img
                 src={profilePicture}
-                alt="Hewan Sirak's Profile Picture"
+                alt="Hewan Sirak Getahun"
                 className="w-full h-full object-cover rounded-full"
               />
             </div>
@@ -47,7 +47,7 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-4xl sm:text-6xl lg:text-7xl font-bold text-white mb-2" // Reduced mb to bring title closer
           >
-            Hewan Sirak
+            Hewan S. Getahun
           </motion.h1>
 
           {/* Title */}
