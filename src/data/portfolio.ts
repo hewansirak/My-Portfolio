@@ -1,4 +1,4 @@
-import { Experience } from '../types/portfolio';
+import { Experience, Project } from '../types/portfolio';
 import { calculateDuration } from './calculateDuration';
 
 export const experiences: Experience[] = [
@@ -69,5 +69,51 @@ export const experiences: Experience[] = [
       'Optimized database queries, reducing response times by 40%'
     ],
     technologies: ['Backend Development', 'ERP Systems', 'RESTful APIs', 'Database Optimization', 'Agile Methodologies']
+  }
+];
+
+export const projects: Project[] = [
+  {
+    id: '1',
+    title: 'E-Commerce Platform',
+    description: 'Full-stack e-commerce solution with admin dashboard',
+    longDescription: 'A comprehensive e-commerce platform built with React and Node.js, featuring user authentication, product management, shopping cart, payment integration, and admin dashboard.',
+    technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe', 'Redis', 'Docker'],
+    githubUrl: 'https://github.com/yourusername/ecommerce-platform',
+    liveUrl: 'https://demo-ecommerce.vercel.app',
+    imageUrl: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
+    featured: true
+  },
+  {
+    id: '2',
+    title: 'Task Management System',
+    description: 'Collaborative project management tool with real-time updates',
+    longDescription: 'A modern task management application with real-time collaboration, drag-and-drop interface, team management, and progress tracking capabilities.',
+    technologies: ['Next.js', 'TypeScript', 'Prisma', 'Socket.io', 'TailwindCSS'],
+    githubUrl: 'https://github.com/yourusername/task-management',
+    liveUrl: 'https://task-manager-demo.vercel.app',
+    imageUrl: 'https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=800',
+    featured: true
+  },
+  {
+    id: '3',
+    title: 'Weather Dashboard',
+    description: 'Interactive weather application with data visualization',
+    longDescription: 'A comprehensive weather dashboard featuring current conditions, forecasts, interactive maps, and historical data visualization using modern web APIs.',
+    technologies: ['Vue.js', 'Chart.js', 'OpenWeather API', 'Vuex', 'SCSS'],
+    githubUrl: 'https://github.com/yourusername/weather-dashboard',
+    liveUrl: 'https://weather-dashboard-demo.netlify.app',
+    imageUrl: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
+    featured: false
+  },
+  {
+    id: '4',
+    title: 'Social Media Analytics',
+    description: 'Analytics dashboard for social media performance tracking',
+    longDescription: 'A powerful analytics platform that aggregates data from multiple social media platforms, providing insights through interactive charts and automated reporting.',
+    technologies: ['React', 'D3.js', 'Python', 'Flask', 'MySQL', 'Docker'],
+    githubUrl: 'https://github.com/yourusername/social-media-analytics',
+    imageUrl: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800',
+    featured: false
   }
 ];
