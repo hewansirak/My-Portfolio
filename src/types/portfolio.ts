@@ -20,3 +20,10 @@ export interface Project {
   imageUrl: string;
   featured: boolean;
 }
+
+export interface Skill {
+  name: string;
+  category:  'Languages' | 'Web Development' | 'Database' | 'DevOps' | 'Tools';
+  proficiency: number;
+  icon: string;
+}
