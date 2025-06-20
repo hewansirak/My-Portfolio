@@ -97,7 +97,7 @@ const Skills: React.FC = () => {
           <h3 className="text-2xl font-bold text-white mb-8">Additional Technologies</h3>
           <div className="flex flex-wrap justify-center gap-3">
             {[
-              'Flutter', 'PyTorch','R', 'TensorFlow', 'Tailwind CSS', 'Webpack', 'Jupyter Notebook',
+              'Flutter', 'PyTorch','R', 'meTTa', 'TensorFlow', 'Tailwind CSS', 'Webpack', 'Jupyter Notebook',
               'Vite', 'Prisma', 'Socket.io', 'Django', 'Pandas', 'Numpy', 'Redis', 'Pinecone', 
               'Firebase', 'Vercel', 'SpaCy', 'OpenCV', 'LangChain', 'Scikit-learn', 'Keras', 'XGBoost',
               'Netlify', 'GitHub Actions', 'JIRA', 'Kubernetes', 

@@ -1,4 +1,4 @@
-import { Experience, Project } from '../types/portfolio';
+import { Experience, Project, Skill } from '../types/portfolio';
 import { calculateDuration } from './calculateDuration';
 
 export const experiences: Experience[] = [
@@ -116,4 +116,37 @@ export const projects: Project[] = [
     imageUrl: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800',
     featured: false
   }
+];
+
+export const skills: Skill[] = [
+
+  // Languages
+  { name: 'Python', category: 'Languages', proficiency: 95, icon: 'Terminal' },
+  { name: 'JavaScript', category: 'Languages', proficiency: 90, icon: 'Code' },
+  { name: 'TypeScript', category: 'Languages', proficiency: 90, icon: 'FileText' },
+  { name: 'Ruby', category: 'Languages', proficiency: 95, icon: 'Gem' }, 
+  { name: 'Java', category: 'Languages', proficiency: 85, icon: 'Coffee' }, 
+  { name: 'PHP', category: 'Languages', proficiency: 85, icon: 'Server' }, 
+  { name: 'Dart', category: 'Languages', proficiency: 85, icon: 'Tablet' }, 
+
+  // Web Development
+  { name: 'React', category: 'Web Development', proficiency: 95, icon: 'Layers' }, 
+  { name: 'Next.js', category: 'Web Development', proficiency: 90, icon: 'Globe' }, 
+  { name: 'Node.js', category: 'Web Development', proficiency: 90, icon: 'Leaf' }, 
+  { name: 'Express.js', category: 'Web Development', proficiency: 80, icon: 'Zap' },
+
+  // Database
+  { name: 'PostgreSQL', category: 'Database', proficiency: 90, icon: 'Database' },
+  { name: 'SQL', category: 'Database', proficiency: 90, icon: 'Database' }, 
+  { name: 'NoSQL', category: 'Database', proficiency: 80, icon: 'HardDrive' }, 
+
+  // DevOps
+  { name: 'Docker', category: 'DevOps', proficiency: 85, icon: 'Package' }, 
+  { name: 'AWS', category: 'DevOps', proficiency: 80, icon: 'Cloud' }, 
+  { name: 'GCP', category: 'DevOps', proficiency: 80, icon: 'CloudCog' }, 
+  { name: 'Jenkins', category: 'DevOps', proficiency: 80, icon: 'CloudCog' }, 
+
+  // Tools
+  { name: 'Git', category: 'Tools', proficiency: 95, icon: 'GitBranch' }, 
+  { name: 'Figma', category: 'Tools', proficiency: 90, icon: 'Figma' } 
 ];
