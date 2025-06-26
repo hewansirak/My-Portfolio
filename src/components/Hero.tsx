@@ -83,7 +83,7 @@ const Hero: React.FC = () => {
             </button>
             
             <button
-              onClick={() => scrollToSection('contact')}
+              onClick={() => window.open('https://drive.google.com/file/d/15ZSZV-qenNHh3pPELOTZUGgWNEZZn6Nw/view?usp=sharing', '_blank')}
               className="inline-flex items-center px-8 py-4 border-2 border-purple-500 text-purple-400 font-semibold rounded-lg hover:bg-purple-500 hover:text-white transition-all duration-300"
             >
               <Download className="mr-2" size={18} />

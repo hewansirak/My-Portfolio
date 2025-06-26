@@ -82,7 +82,7 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/yourusername/ecommerce-platform',
     liveUrl: 'https://demo-ecommerce.vercel.app',
     imageUrl: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-    featured: true
+    favourites: true
   },
   {
     id: '2',
@@ -93,7 +93,7 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/yourusername/task-management',
     liveUrl: 'https://task-manager-demo.vercel.app',
     imageUrl: 'https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=800',
-    featured: true
+    favourites: true
   },
   {
     id: '3',
@@ -104,7 +104,7 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/yourusername/weather-dashboard',
     liveUrl: 'https://weather-dashboard-demo.netlify.app',
     imageUrl: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
-    featured: false
+    favourites: false
   },
   {
     id: '4',
@@ -114,7 +114,7 @@ export const projects: Project[] = [
     technologies: ['React', 'D3.js', 'Python', 'Flask', 'MySQL', 'Docker'],
     githubUrl: 'https://github.com/yourusername/social-media-analytics',
     imageUrl: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800',
-    featured: false
+    favourites: false
   }
 ];
 

@@ -4,11 +4,11 @@ import { Github, ExternalLink, Eye, Star } from 'lucide-react';
 import { projects } from '../data/portfolio';
 
 const Projects: React.FC = () => {
-  const [filter, setFilter] = useState<'all' | 'featured'>('all');
+  const [filter, setFilter] = useState<'all' | 'favourites'>('all');
   const [selectedProject, setSelectedProject] = useState<string | null>(null);
 
   const filteredProjects = projects.filter(project => 
-    filter === 'all' || project.featured
+    filter === 'all' || project.favourites
   );
 
   return (
@@ -22,7 +22,7 @@ const Projects: React.FC = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">
-            Featured <span className="bg-gradient-to-r from-purple-400 to-orange-400 bg-clip-text text-transparent">Projects</span>
+            Recent <span className="bg-gradient-to-r from-purple-400 to-orange-400 bg-clip-text text-transparent">Projects</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto mb-8">
             A showcase of my recent work and side projects
@@ -41,15 +41,15 @@ const Projects: React.FC = () => {
               All Projects
             </button>
             <button
-              onClick={() => setFilter('featured')}
+              onClick={() => setFilter('favourites')}
               className={`px-6 py-2 rounded-full font-medium transition-all duration-300 flex items-center ${
-                filter === 'featured'
+                filter === 'favourites'
                   ? 'bg-purple-500 text-white shadow-lg'
                   : 'bg-slate-700 text-gray-300 hover:bg-slate-600'
               }`}
             >
               <Star size={16} className="mr-2" />
-              Featured
+              Favourites
             </button>
           </div>
         </motion.div>
@@ -74,11 +74,11 @@ const Projects: React.FC = () => {
                       alt={project.title}
                       className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
                     />
-                    {project.featured && (
+                    {project.favourites && (
                       <div className="absolute top-4 right-4">
                         <div className="bg-orange-500 text-white px-3 py-1 rounded-full text-xs font-medium flex items-center">
                           <Star size={12} className="mr-1" />
-                          Featured
+                          Favourites
                         </div>
                       </div>
                     )}
