@@ -1,13 +1,13 @@
 import { Experience, Project, Skill } from '../types/portfolio';
 import { calculateDuration } from './calculateDuration';
-import matchImage from './src/assets/match.png';
-import cursorImage from './src/assets/cursor.png';
-import tumorImage from './src/assets/tumor.png';
-import discordImage from './src/assets/discord.png';
-import churnImage from './src/assets/churn.png';
-import prImage from './src/assets/pr.png';
-import tutorImage from './src/assets/tutor.png';
-import anomalyImage from './src/assets/anomaly.png';
+import matchImage from '../assets/match.png';
+import cursorImage from '../assets/cursor.png';
+import tumorImage from '../assets/tumor.png';
+import discordImage from '../assets/discord.png';
+import churnImage from '../assets/churn.png';
+import prImage from '../assets/pr.png';
+import tutorImage from '../assets/tutor.png';
+import anomalyImage from '../assets/anomaly.png';
 
 export const experiences: Experience[] = [
   {
@@ -153,7 +153,7 @@ export const projects: Project[] = [
     technologies: ['Github Apps', 'Groq', 'TypeScript'],
     githubUrl: 'https://github.com/hewansirak/PR-Reviewer',
     liveUrl: 'https://tutormate-bot-proj.streamlit.app',
-    imageUrl: tumorImage,
+    imageUrl: tutorImage,
     favourites: false
   },
   {
