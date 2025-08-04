@@ -1,5 +1,13 @@
 import { Experience, Project, Skill } from '../types/portfolio';
 import { calculateDuration } from './calculateDuration';
+import matchImage from './src/assets/match.png';
+import cursorImage from './src/assets/cursor.png';
+import tumorImage from './src/assets/tumor.png';
+import discordImage from './src/assets/discord.png';
+import churnImage from './src/assets/churn.png';
+import prImage from './src/assets/pr.png';
+import tutorImage from './src/assets/tutor.png';
+import anomalyImage from './src/assets/anomaly.png';
 
 export const experiences: Experience[] = [
   {
@@ -81,7 +89,7 @@ export const projects: Project[] = [
     technologies: ['React', 'TypeScript', 'Supabase', 'Docker'],
     githubUrl: 'https://github.com/hewansirak/match-finder',
     liveUrl: 'https://match-finder-omega.vercel.app/',
-    imageUrl: '/src/assets/match.png',
+    imageUrl: matchImage,
     favourites: true
   },
   {
@@ -91,7 +99,7 @@ export const projects: Project[] = [
     longDescription: 'A modern task management application with real-time collaboration, drag-and-drop interface, team management, and progress tracking capabilities.',
     technologies: ['Vanilla JS', 'Tailwind CSS'],
     githubUrl: 'https://github.com/hewansirak/Cursor-Clone/tree/mychanges',
-    imageUrl: '/src/assets/cursor.png',
+    imageUrl: cursorImage,
     favourites: true
   },
   {
@@ -102,7 +110,7 @@ export const projects: Project[] = [
     technologies: ['Streamlit', 'TensorFlow', 'Numpy', 'Pandas', 'Matplotlib', 'OpenCV'],
     githubUrl: 'https://github.com/hewansirak/Brain-Tumor-Classification',
     liveUrl: 'https://brain-tumor-classification-proj.streamlit.app',
-    imageUrl: '/src/assets/tumor.png',
+    imageUrl: tumorImage,
     favourites: true
   },
   {
@@ -113,7 +121,7 @@ export const projects: Project[] = [
     technologies: ['Next.js', 'TypeScript','Tailwind', 'Convex', 'Clerk'],
     githubUrl: 'https://github.com/hewansirak/Discordish-Clone',
     liveUrl: 'https://discordish-clone.vercel.app',
-    imageUrl: '/src/assets/discord.png',
+    imageUrl: discordImage,
     favourites: false
   },
     {
@@ -124,7 +132,7 @@ export const projects: Project[] = [
     technologies: ['Streamlit', 'TensorFlow', 'Numpy', 'Pandas', 'Matplotlib', 'OpenCV'],
     githubUrl: 'https://github.com/hewansirak/Customer-churn-prediction',
     liveUrl: 'https://customer-churn-prediction-proj.streamlit.app',
-    imageUrl: '/src/assets/churn.png',
+    imageUrl: churnImage,
     favourites: true
   },
   {
@@ -134,7 +142,7 @@ export const projects: Project[] = [
     longDescription: "I built upon a system that can review pull requests in GitHub repos and suggest improvements to the code using GitHub Apps and Groq's models.",
     technologies: ['Github Apps', 'Groq', 'TypeScript'],
     githubUrl: 'https://github.com/hewansirak/PR-Reviewer',
-    imageUrl: '/src/assets/pr.png',
+    imageUrl: prImage,
     favourites: false
   },
     {
@@ -145,7 +153,7 @@ export const projects: Project[] = [
     technologies: ['Github Apps', 'Groq', 'TypeScript'],
     githubUrl: 'https://github.com/hewansirak/PR-Reviewer',
     liveUrl: 'https://tutormate-bot-proj.streamlit.app',
-    imageUrl: '/src/assets/tutor.png',
+    imageUrl: tumorImage,
     favourites: false
   },
   {
@@ -156,7 +164,7 @@ export const projects: Project[] = [
     technologies: ['yFinance', 'Streamlit', 'sklearn', 'Numpy', 'Matplotlib'],
     githubUrl: 'https://github.com/hewansirak/Financial-market-anomaly-detection',
     liveUrl: 'https://financial-market-anomaly-detection.streamlit.app/',
-    imageUrl: '/src/assets/anomaly.png',
+    imageUrl: anomalyImage,
     favourites: false
   }
 ];
